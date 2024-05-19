@@ -1,10 +1,11 @@
-import React from "react";
-import "./Loading.css";
+import React from 'react';
+import LoadingSpinner from './LoadingSpinner';
+import './Loading.css';
 
 const Loading: React.FC = () => {
   return (
-    <div className="loading">
-     <h2> </h2>
+    <div className="loading-container">
+      <LoadingSpinner />
     </div>
   );
 };
