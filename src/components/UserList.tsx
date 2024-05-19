@@ -63,7 +63,7 @@ const UserList: React.FC = () => {
         </div>
       ))}
       {loading && <div className="user">Loading...</div>}
-      {!hasMore && <div className="user">No more users</div>}
+      {!hasMore && <div className="">No more users</div>}
     </div>
   );
 };

@@ -4,7 +4,7 @@
     height: 80px;
   }
 
-  /* Keyframe animation for the spinner */
+  /* Keyframe animation for the spinner 
 @keyframes spin {
     0% {
       transform: rotate(0deg);
@@ -12,7 +12,7 @@
     100% {
       transform: rotate(360deg);
     }
-  }
+  } */
   .spinner:after {
     content: " ";
     display: block;
