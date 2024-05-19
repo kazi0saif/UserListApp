@@ -1,0 +1,62 @@
+.user-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  transition: transform 0.2s;
+}
+
+.user:hover {
+  transform: translateY(-10px);
+}
+
+.user img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.user div {
+  margin: 5px 0;
+  font-family: Arial, sans-serif;
+}
+
+.user div:first-child {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.user div:nth-child(2) {
+  font-size: 14px;
+  color: #888888;
+}
+
+.user div:last-child {
+  font-size: 12px;
+  color: #aaaaaa;
+}
+
+.loading-indicator,
+.end-indicator {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #555;
+}
