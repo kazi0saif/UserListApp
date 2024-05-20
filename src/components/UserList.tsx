@@ -62,7 +62,7 @@ const UserList: React.FC = () => {
           <div>{user.email}</div>
         </div>
       ))}
-      {loading && <div className="user">Loading...</div>}
+      {loading && <div className="">Loading...</div>}
       {!hasMore && <div className="">No more users</div>}
     </div>
   );

@@ -36,6 +36,7 @@ section {
   animation-delay: calc(1s * var(--i));
 }
 
+/* Animate Variable */
 @keyframes pulseAnimate {
   100% {
     opacity: 0;
