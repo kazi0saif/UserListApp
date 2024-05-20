@@ -1,17 +1,6 @@
-/* Keyframe animation for the spinner */
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 /* Spinner style */
 .loading {
   -webkit-animation: spin 3s linear infinite;
-  background: url('./images/pulse.gif') no-repeat center center;
   animation: spin 3s linear infinite;
 
   /* Center the spinner */
@@ -20,4 +9,3 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
