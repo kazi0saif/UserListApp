@@ -10,6 +10,7 @@ const App: React.FC = () => {
     const timer = setTimeout(() => {
       setLoading(false);
     }, 3000);
+    
     return () => clearTimeout(timer);
   }, []);
 
